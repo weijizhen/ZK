@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "halo2",
+    "halo2_proofs",
+    "halo2_gadgets"
+]
+
+[profile.dev]
+debug = true
+
+[profile.release]
+debug = true
